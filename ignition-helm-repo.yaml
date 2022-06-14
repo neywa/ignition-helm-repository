@@ -1,0 +1,9 @@
+apiVersion: helm.openshift.io/v1beta1
+kind: HelmChartRepository
+metadata:
+  name: ignition-helm-chart
+spec:
+  connectionConfig:
+    url: 'https://neywa.github.io/ignition-helm-repository/'
+    name: ignition-helm
+
