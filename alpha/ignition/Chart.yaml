@@ -1,7 +1,7 @@
 apiVersion: v2
 name: ignition
 description: A Helm Chart for ignition
-version: 0.0.1
+version: 0.0.2
 appVersion: "8.1.17"
 keywords:
   - ignition
