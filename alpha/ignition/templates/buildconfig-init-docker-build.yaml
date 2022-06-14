@@ -5,6 +5,9 @@ metadata:
   labels:
     name: docker-build-init
 spec:
+  triggers:
+    - 
+      type: "ImageChange"
   output:
     to:
       kind: ImageStreamTag
